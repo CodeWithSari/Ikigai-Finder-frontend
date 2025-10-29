@@ -1,16 +1,45 @@
-# React + Vite
+# Ikigai Finder – Frontend
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**Ikigai Finder Frontend** is a modern **React + Material UI** web app that helps users discover their purpose in life through an interactive step-by-step self-assessment based on the Japanese concept of *Ikigai*.
 
-Currently, two official plugins are available:
+Users answer guided questions about their **interests, strengths, values, and career goals**, receive smart auto-suggestions, and view a dynamic **Ikigai chart** built using **Chart.js**.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## 🚀 Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- 🧭 Guided multi-step form using **MUI Stepper**
+- 💡 Smart auto-suggestions from predefined arrays
+- 📊 Dynamic **Ikigai Chart** using Chart.js
+- 💾 Saves user input and results to backend (JSON Server)
+- 📄 Export Ikigai summary and chart as a **PDF**
+- ⚡ Deployed on **Vercel**
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🧰 Tech Stack
+
+- **React.js** (Hooks + Functional Components)
+- **Material UI (MUI)**
+- **Chart.js**
+- **Axios**
+- **React Router DOM**
+- **Vercel** (Deployment)
+
+---
+
+## 🌐 Backend
+
+This frontend connects to the **Ikigai Finder Server**, a **JSON Server** backend hosted on **Render**.
+
+---
+
+## 👩‍💻 Author
+
+**Saritha C**  
+MERN Stack Developer | Web Development Trainer | QA Officer  
+📍 Kerala, India  
+
+---
+
+⭐ *If you find this project helpful, please star the repo!*
